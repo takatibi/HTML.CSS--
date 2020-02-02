@@ -1,4 +1,14 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
 
+.clearfix::after{
+	content:"";
+	display: block;
+	clear: both;
+}
 
 .main{
 	width: 1000px;
@@ -27,7 +37,7 @@
 
 
 .left-img{
-	width: 280px;
+	width: 260px;
 	height: 200px;
 	background-image: url(img/flow01.png);
 	background-size: cover;
@@ -37,7 +47,7 @@
 }
 
 .center-img{
-		width: 280px;
+		width: 260px;
 	height: 200px;
 	background-image: url(img/flow02.png);
 	background-size: cover;
@@ -47,7 +57,7 @@
 }
 
 .right-img{
-		width: 280px;
+		width: 260px;
 	height: 200px;
 	background-image: url(img/flow03.png);
 	background-size: cover;
@@ -100,19 +110,19 @@
 	.box{
 		float:none;
 		margin: 0 auto;
+		width: 90%;
 	}
 	.box:nth-child(1){
-		margin-top: 50px;
 	}
 	.box:nth-child(2){
 		margin:20px auto;
 
 	}
 	.box:nth-child(3){
-		margin-bottom: 50px;
 	}
+
 	.main{
-		width: 90%;
+		width: 100%;
 	}
 	}
 
